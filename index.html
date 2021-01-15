@@ -1,0 +1,123 @@
+<!doctype html>
+<html><!-- InstanceBegin template="Templates/template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Melnik's Fabulous Christmas Holiday Extravaganza Site</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+<link href="styles/Mainstyle.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+#sidenav {
+    width: 300px;
+    float: left;
+}
+##footer {
+    clear: both;
+    height: 35px;
+}
+</style>
+</head>
+
+<body>
+<div id="main">
+        
+        <div id="banner">
+    <img src="images/banner.jpg" width="1200" height="200" alt=""/> </div>
+    
+    
+        <div id="sidenav">Content for  id "sidenav" Goes Here</div>
+    
+    
+    
+    <div id="middle">
+    
+      <h1>Welcome to my Holiday</h1>
+        
+        <p>During my holidays, I love playing games, doing video editing, learning new effects and looking for new footages, Photoshop, chatting with friends and a lot of other things.</p>
+        
+       
+        
+        
+        
+    </div>
+    
+    <div id="Slideshow">
+        
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="images/1christmas.jpg" style="width:50%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/2christmas.jpg" style="width:50%">
+</div>
+
+<div class="mySlides fade">
+  <img src="images/3christmas.jpg" style="width:50%">
+</div>
+    
+    <div class="mySlides fade">
+  <img src="images/4christmas.jpg" style="width:50%">
+        
+        <div class="mySlides fade">
+  <img src="images/5christmas.jpg" style="width:50%">
+</div>
+        
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+<span class="dot"></span>
+    <span class="dot"></span>
+    
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 2000); // Change image every 5 seconds
+}
+</script>
+        
+         <p>It's good when the whole family gets together, when everyone is happy with each other, giving gifts and having fun.</p>
+        
+    </div>
+    <div id="#footer">
+        
+        <h1>Нахрена тут нужен футер, не понятно... но он есть, а в нем должны быть ссылки на другие страницы, либо почта, но мне лень ее вводить, но она должна быть, так что вот она:
+            <a href="mailto:Melnik.A015@student.cbsd.org">Mail</a> </h1>
+    </div>
+    
+    
+    
+    </div>
+</body>
+<!-- InstanceEnd --></html>
